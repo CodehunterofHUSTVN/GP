@@ -1,0 +1,102 @@
+/*Style of header list item*/ 
+.hlis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/*Style of page format*/
+.pfs{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+/*Style of scroll bar*/
+.sbs{
+    overflow-x:hidden;
+}
+
+/*Style of line form input*/
+.lfis{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+}
+
+/*Style of from input row*/
+.firs{
+    width: 50px;
+    text-align: center;
+    background-color: #B5E2FF;
+    font-weight: bold;
+    border-color: #CED4DA;
+    border-radius: 5px 0px 0px 5px;
+    border-width: thin;
+    border-style: solid;
+    font-size: large;
+    padding-top: 5px;
+}
+
+/*Style of goal input row*/
+.girs{
+    width: 710px;
+    border-color: #CED4DA;
+    border-style: solid;
+    border-radius: 0px 5px 5px 0px;
+    border-width: thin;
+    background-color: white;
+    vertical-align: middle;
+    font-size: large;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+/*Style of input group text guide*/ 
+.igtgs{
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #B5E2FF;
+    font-weight: bold;
+    vertical-align: middle;
+    border-style: solid;
+    font-size: large;
+}
+
+/*Style of goal input text*/
+.gits{
+    margin-right: 770px;
+    font-size: large;
+}
+
+/*Style of button background*/
+.bbs{
+    background-color: red;
+}
+
+/*Style of local place button*/
+.lpbs{
+    margin-left: 10px;
+    margin-right: 695px;
+}
+
+/*Style of button line*/
+.bls{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*Style of guide button*/
+.gbs{
+    margin-left: 20px;
+    background-color: yellow;
+}
+
+/*Style of guide popover container*/
+.gpcs{
+    max-width: 1000px;
+}

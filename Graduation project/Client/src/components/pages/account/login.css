@@ -1,0 +1,62 @@
+/* Style of login title*/
+.lgts{
+    font-family: "OpenSans";
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Style of login form */
+.lgfs{
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    background-color: #B5E2FF;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 800px;
+    max-height: 1000px;  
+}
+
+/* Style of login warning text */
+.lgwts{
+    font-family: "OpenSans";
+    color: red;
+    font-weight: bold;
+}
+
+/* Style of login detail text */
+.lgdts{
+    font-family: "OpenSans";
+    color: gray;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Style of login submit button */
+.lgsbs{
+    margin-top: 30px;
+}
+
+/* Style of login forget password button */
+.lgfpbs{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style of hr tag */
+.hrts{
+    align-self: center;
+    width: 80%;
+    color: black;
+}
+
+/* Style of login signup button */
+.lgsubs{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

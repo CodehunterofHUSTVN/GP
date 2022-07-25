@@ -1,0 +1,115 @@
+/* Style of checkout page */
+.cops{
+    background-color: #FCE9EF;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 0px;
+}
+
+/* Style of checkout list */
+.cols{
+    background-color: #B5E2FF;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 35px 20px 25px 0px;
+    width: 680px;
+    height:fit-content;
+    border: 0px;
+}
+
+/*Style of checkout added list*/ 
+.coals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+/*Style of checkout list header*/
+.colhs{
+    color: black;
+    text-align: center;
+    font-family: "OpenSans-Bold";
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+/*Style of checkout list item image and name*/
+.coliins {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Style of checkout list item name*/
+.colins {
+    margin-left: 20px;
+}
+
+/*Style of checkout list left-side part of item*/
+.colilss {
+    border: none;
+}
+
+/*Style of checkout list total price tps*/
+.coltps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    margin-right: 30px;
+}
+
+/*Style of cell info*/
+.clis{
+    width: 150px;
+}
+
+/* Style of checkout list form */
+.colfs{
+    margin: 35px 0px 125px;
+    padding: 20px;
+    background-color: #FCE9EF;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 600px;
+    height: fit-content;  
+}
+
+/*Style of checkout list more detail*/
+.colmds{
+    resize: none;
+}
+
+/* Style of checkout list warning text */
+.colwts{
+    font-family: "OpenSans";
+    color: red;
+    font-weight: bold;
+}
+
+/* Style of checkout list detail text */
+.coldts{
+    font-family: "OpenSans";
+    color: gray;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Style of checkout list submit button */
+.colsbs{
+    margin-top: 30px;
+}

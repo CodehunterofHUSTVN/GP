@@ -1,0 +1,15 @@
+/*Style of success page background */
+.spbs{
+    background-color: #FCE9EF;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 690px;
+}
+
+/* Style of success page image style*/
+.spis{
+    max-width: 50%;
+    height: 100%;
+}

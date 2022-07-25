@@ -1,0 +1,43 @@
+/* Style of register title */
+.rts{
+    font-family: "OpenSans";
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Style of register form */
+.rgfs{
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    background-color: #B5E2FF;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 800px;
+    max-height: 1000px;  
+}
+
+/* Style of register warning text */
+.rwts{
+    font-family: "OpenSans";
+    color: red;
+    font-weight: bold;
+}
+
+/* Style of register detail text */
+.rdts{
+    font-family: "OpenSans";
+    color: gray;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Style of register submit button */
+.rsbs{
+    margin-top: 30px;
+}

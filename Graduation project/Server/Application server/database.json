@@ -1,0 +1,120 @@
+{
+  "place": [
+    {
+      "id": 1,
+      "location_obj": {
+        "lat": 21.023284,
+        "lng": 105.809213
+      },
+      "location_str": "21.023284,105.809213",
+      "address_components": {
+        "name": "Cakies Vincom Center Nguyễn Chí Thanh",
+        "street_number": "54A",
+        "route": "Nguyễn Chí Thanh",
+        "administrative_area_level_2": "Đống Đa",
+        "administrative_area_level_1": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "contact": {
+        "hotline": 20209012,
+        "email": "cakie@project.hust.edu.vn"
+      },
+      "time": {
+        "open": "9AM",
+        "close": "8PM"
+      }
+    },
+    {
+      "id": 2,
+      "location_obj": {
+        "lat": 21.006267,
+        "lng": 105.831817
+      },
+      "location_str": "21.006267,105.831817",
+      "address_components": {
+        "name": "Cakies Vincom Center Phạm Ngọc Thạch",
+        "street_number": 2,
+        "route": "Phạm Ngọc Thạch",
+        "administrative_area_level_2": "Đống Đa",
+        "administrative_area_level_1": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "contact": {
+        "hotline": 20209012,
+        "email": "cakie@project.hust.edu.vn"
+      },
+      "time": {
+        "open": "9AM",
+        "close": "8PM"
+      }
+    },
+    {
+      "id": 3,
+      "location_obj": {
+        "lat": 21.005538,
+        "lng": 105.823342
+      },
+      "location_str": "21.005538,105.823342",
+      "address_components": {
+        "name": "Cakies MIPEC Tower",
+        "street_number": 229,
+        "route": "Tây Sơn",
+        "administrative_area_level_2": "Đống Đa",
+        "administrative_area_level_1": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "contact": {
+        "hotline": 20209012,
+        "email": "cakie@project.hust.edu.vn"
+      },
+      "time": {
+        "open": "8AM",
+        "close": "8PM"
+      }
+    }
+  ],
+  "cake": [
+    {
+      "id": 1,
+      "img": "https://firebasestorage.googleapis.com/v0/b/cakies-333803.appspot.com/o/Cinderella.jpg?alt=media&token=acd03723-bba7-42fa-a84e-16ce9ed78640",
+      "bigimg": "https://firebasestorage.googleapis.com/v0/b/cakies-333803.appspot.com/o/Cinderella%20(full).jpg?alt=media&token=dc7b01a6-8f40-473b-93d1-0319ffb65dad",
+      "name": "CINDERELLA",
+      "path": "http://localhost:3000/cakedetail/?cakename=cinderella",
+      "pathname": "cinderella",
+      "menuname": "Cinderella cake",
+      "price": 40,
+      "collection": "Fairy tales collection",
+      "foreword": "Come from fairy tale world, Cinderella look so gorgeous on her white dress. Nothing better than pretty princess like her come to appear at your party. She's just waiting for you to take her there.",
+      "ingredients": "Fresh strawberry from Viet Nam. Strawberry cream and baking flour form France. White chocolate from Belgium"
+    },
+    {
+      "id": 2,
+      "img": "https://firebasestorage.googleapis.com/v0/b/cakies-333803.appspot.com/o/Chocolate%20fruit.jpg?alt=media&token=58f4b426-14c2-4f98-a523-30a9e131228f",
+      "bigimg": "https://firebasestorage.googleapis.com/v0/b/cakies-333803.appspot.com/o/Chocolate%20fruit%20(full).jpg?alt=media&token=d61ef4e2-b072-4e96-91b9-326932658c2d",
+      "name": "CHOCOLATE FRUIT",
+      "path": "http://localhost:3000/cakedetail/?cakename=chocolatefruit",
+      "pathname": "chocolatefruit",
+      "menuname": "Chocolate fruit cake",
+      "price": 38,
+      "collection": "Nature collection",
+      "foreword": "The bitter, greasy taste from chocolate mixing with the sweet-and-sour taste from fresh fruit and cream will make you feel so crazy passion, so unforgettable!!! Let taste and feel!",
+      "ingredients": "Seasonal fruit, black chocolate, chocolate cream all from Viet Nam"
+    },
+    {
+      "id": 3,
+      "img": "https://firebasestorage.googleapis.com/v0/b/cakies-333803.appspot.com/o/Strawberry%20honey.jpg?alt=media&token=61b2904b-4c10-4e65-97ff-01575cd5dc15",
+      "bigimg": "https://firebasestorage.googleapis.com/v0/b/cakies-333803.appspot.com/o/Strawberry%20honey%20(full).jpg?alt=media&token=d46e3b36-c9d5-43f3-a77d-b512e1cc4dda",
+      "name": "STRAWBERRY HONEY",
+      "path": "http://localhost:3000/cakedetail/?cakename=strawberryhoney",
+      "pathname": "strawberryhoney",
+      "menuname": "Strawberry honey cake",
+      "price": 36,
+      "collection": "Nature collection",
+      "foreword": "Strawberry, strawberry ... and strawberry ************ As sweet as honey ************ ************ Let taste and feel ************* ************ All the jolly journey ***********",
+      "ingredients": "Fresh strawberry from Viet Nam. Strawberry cream and baking flour form Japan"
+    }
+  ],
+  "item": [],
+  "feedback": [],
+  "bill": []
+}

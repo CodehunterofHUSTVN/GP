@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "password": "431837611fca25b1b7c486b9577541728352aa31601e359a1810835d77a6fa24"
+    },
+    {
+      "name": "iloveHUST",
+      "password": "16fb3960b7142b49ffd8f71c510b125c19f8383190f0def3ad0fe112164113bf",
+      "email": "dung.dt209012@sis.hust.edu.vn",
+      "id": 1
+    }
+  ],
+  "logs": [
+  ]
+}

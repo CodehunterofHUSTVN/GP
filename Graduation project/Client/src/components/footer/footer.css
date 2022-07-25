@@ -1,0 +1,26 @@
+/*Style of line have icons*/
+.s1s {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+/*Style of icons*/
+.is {
+    margin-left: 32px;
+}
+
+/*Background style of all parts*/
+.bs {
+    background-color:#FFD180;
+}
+
+/*Style of slogan*/
+.sls{
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+
+

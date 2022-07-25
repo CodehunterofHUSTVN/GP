@@ -1,0 +1,14 @@
+/* Style of done page background */
+.dpbs{
+    background-color: #FCE9EF;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 24.5px auto;
+}
+
+/* Style of done page image*/
+.dpis{
+    max-width: 75%;
+    height: 100%;
+}

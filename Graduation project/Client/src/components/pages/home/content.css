@@ -1,0 +1,100 @@
+/*Style of foreword*/
+.ps {
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 24px;
+    -webkit-line-clamp: 5;
+    height: 120px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+/*Style of CardBody*/
+.cbs {
+    background-color: #B5E2FF;
+}
+
+/*Margin style of name and price*/
+.cts1 {
+    margin-top: 6px;
+}
+
+/*Style of price*/
+.cts2 {
+    float: right;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/*Style of CardDeck*/
+.cds {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*Style of read more button in card info of cake*/
+.bts2 {
+    width: 160px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #B5E2FF;
+    transition: all 0.5s;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* Effect style of read more button (start form bts2:hover to bts2:hover span:after)
+_ Change color
+_ Add >> in line
+*/
+.bts2:hover {
+    border: none;
+    background-color: #FF6600;
+    font-weight: normal;
+}
+
+.bts2 span:after {
+    content: '\00bb';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.bts2:hover span {
+    padding-right: 25px;
+  }
+  
+.bts2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*Style of cart button in card info of cake*/
+.bts3 {
+    background-color: #B5E2FF;
+    float: right;
+}
+
+/*Effect style of cart button*/
+.bts3:hover {
+    border: none;
+    background-color: #FF6600;
+}
+
+.bts3:focus{
+    background-color: #B5E2FF;
+}
+
+/*Style of line of name and price*/
+.nbs2 {
+    background-color: #B5E2FF;
+}

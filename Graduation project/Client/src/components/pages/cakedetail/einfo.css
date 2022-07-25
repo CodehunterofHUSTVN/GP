@@ -1,0 +1,197 @@
+/*Background style*/
+.bgs{
+    background-color: #F98866;
+}
+
+/*Quickview style*/
+.qws{
+    background-color: #FCE9EF;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 62.5px;
+    padding-bottom: 62.5px;
+}
+
+/*Title, price and add to cart button*/
+.tpbs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Cake title style*/
+.cts{
+    font-size: 50px;
+    font-family: "OpenSans-Bold";
+}
+
+/*Price of cake style*/
+.pocs{
+    font-size: 40px;
+    font-family: "OpenSans-Light";
+    margin-bottom: 25px;
+}
+
+/*Button style*/
+.buts{
+    border: 1px solid black;
+    background-color: #FCE9EF;
+    text-align: center;
+    border-radius: 999px;
+    font-size: 15px;
+    font-family: "OpenSans-Bold";
+    color: black;
+    padding: center;
+    width: 150px;
+    height: 50px;
+}
+
+.buts:hover {
+    border: none;
+    background-color: #FF6600;
+    font-weight: normal;
+}
+
+/*Detail box style*/
+.dbs{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/*Detail title style*/
+.dts{
+    padding-top: 20px;
+    padding-left: 50px; 
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "OpenSans-Bold";
+    font-size:x-large;
+    font-weight:bolder;
+}
+
+/*Detail of content style*/
+.dcs{
+    padding-left: 70px; 
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    font-family: "OpenSans-Light";
+    font-size: larger;
+}
+
+/*Star-rating style*/
+.srs{
+    background-color: #F98866;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    }
+  .on {
+    color: #FFFF00;
+  }
+  .off {
+    color: white;
+}
+
+/*Feedback information style*/
+.fis{
+    width: 1000px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+
+/*Feedback textarea style*/
+.ftas{
+    height: 195px;
+}
+
+/*Send button style*/
+.sebs{
+    margin-left: 70px;
+    border: 1px solid black;
+    font-size: large;
+    font-family: "OpenSans-Bold";
+    color: black;
+    padding: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*Existed star style*/
+.ess{
+    margin-left: 70px;
+    color:#FFFF00;
+    font-size: 25px;
+}
+
+/*Name in the feedback form style*/
+.nffs{
+    padding-left: 70px; 
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    font-family: "OpenSans-Bold";
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Feedback list style*/
+.fls{
+    background-image: linear-gradient(315deg, #ff69b4 25%, #ffffff 25%, #ffffff 50%, #ff69b4 50%, #ff69b4 75%, #ffffff 75%, #ffffff 100%);
+    background-size: 25px 25px;
+    width: 1000px;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #ff69b4; 
+    box-shadow: 5px 5px 15px 5px #ff69b4;
+
+}
+
+/* Feedback list inner style*/
+.fls .flis {
+    background: pink;
+    width: 100%;
+    height: 100%;
+}
+
+.flis{
+    margin-bottom: 0px;
+}
+
+/* Feedback list header stysle*/
+.flhs{
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    font-family: "OpenSans-Light";
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Login info text style*/
+.lgtis{
+    margin-bottom: 0px;
+    padding-left: 70px; 
+    padding-bottom: 10px;
+    font-family: "OpenSans-Light";
+    font-size: x-large;
+}
+
+/*Login hyperlink text style*/
+.lghlts{
+    color: blue;
+    text-decoration: none;
+    font-family: "OpenSans-Light";
+}
+
+.lghlts:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+
