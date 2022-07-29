@@ -6,15 +6,16 @@ import * as Yup from "yup";
 import "./checkout.css";
 
 const Checkout = ({ items,ClearAll }) => {
-  const goDone = () => {
-    window.location.href = "/checkout/success";
-  };
 
   const yesterday = new Date(Date.now() - 86400000);
   const total = items.reduce(
     (price, cartItem) => price + cartItem.quantity * cartItem.price,
     0
   );
+
+  const goDone = () => {
+    window.location.href = "/checkout/success";
+  };
 
   const formik = useFormik({
     initialValues: {
@@ -58,9 +59,10 @@ const Checkout = ({ items,ClearAll }) => {
         total: "$" + total,
         note: values.note,
       };
-      axios.post("http://localhost:2109/bill", bill);
-      goDone();
-      ClearAll();
+      axios.post("http://localhost:2109/bill", bill).then((res)=>{
+        ClearAll();
+        goDone();
+      });
     },
   });
 
